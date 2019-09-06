@@ -1,0 +1,68 @@
+div
+{
+		width: 600;
+		height: 200;
+
+}
+
+
+
+#main
+{
+		background: #CCC;
+				
+}
+	
+		#main header
+{
+	
+		width: 400px; 
+		height: 1px; 
+		float: left;
+		display: inline-block;
+}
+
+		#main nav
+		{
+			header: 1px; solid:#000;
+			
+		}
+
+
+#segond
+{
+		background: #FCC;
+		;	
+}
+
+
+#trois
+{
+		background: #CFC;
+		; 	
+}
+
+	#trois p
+	{
+		color: blue;
+		position: relative; 
+	}
+
+#quatre
+{
+		background: #CCF;
+		
+}
+
+
+#cinq
+{
+	
+		background: #AAA;
+		
+}
+
+body
+{
+	margin: 0;
+}
