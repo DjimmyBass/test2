@@ -1,0 +1,60 @@
+div
+{
+		width: 600;
+		height: 200;
+
+}
+
+
+
+#main
+{
+		background: #CCC;
+		width: 650px; /* valeur relative ou auto 100% hauteur de contenu par defaut*/
+		height: 500px; /* generalement exprime en auto*/
+			
+}
+
+#segond
+{
+		background: #FCC;
+		width: 80%;
+		height: 80px;
+		
+		min-width: 300px;
+		max-width: 700px;	
+}
+
+
+#trois
+{
+		background: #CFC;
+		padding: 15px;  /*Marge interieur et */
+		margin: 20px;   /*Marge exterieur et */
+		height: 105px;
+		overflow: hidden; 
+		
+}
+
+
+#quatre
+{
+		background: #CCF;
+		padding-top: 25px;
+		padding-right: 12px;
+		padding-bottom: 30px;
+		padding-left: 12px;
+		padding: 25px 12px 30px 12px; /*notation abrege*/
+		
+		margin-bottom: 25px;
+}
+
+
+#cinq
+{
+	
+		background: #AAA;
+		margin: auto; /*attention centrage horizontale du block*/
+		/*attention il doit avoir une largeur defini*/
+}
+
