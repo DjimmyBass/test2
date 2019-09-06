@@ -1,0 +1,105 @@
+
+
+#bloc_page
+{
+	
+}
+@font-face {
+	font-family: 'Ballpark';
+	src: url('BallparkWiener.eot');
+	src: url('BallparkWiener.otf') format('truetype'),
+		 url('BallparkWiener.woff') format('woff'),
+		 url('BallparkWiener.eot?#iefix') format('embedded-opentype'),
+		 url('BallparkWiener.svg#BallparkWienerBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Dayrom';
+	src: url('dayrom.eot');
+	src: url('dayrom.otf') format('truetype'),
+		 url('dayrom.woff') format('woff'),
+		 url('dayrom.eot?#iefix') format('embedded-opentype'),
+		 url('dayrom.svg#Dayrom') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+body
+{
+	margin:0;
+	background: url("../images/fond_jaune.png");
+	font-family: "Trebuchet MS" , Arial, sans-serif;
+	
+}
+#bloc_page
+{
+	width: 900px;
+	margin: auto; 
+}
+
+nav a , section hl, footer h2
+{
+	
+	font-family: "Dayrom";
+	text-transform: uppercase; 
+}
+
+header
+{
+	background: url("../images/separateur.png") repeat-x bottom;
+	
+}
+
+
+#titre_principal 
+{
+	display: inline-block; 
+	
+}
+
+#titre_principal h1
+{	
+	display: inline-block;
+	margin-bottom: 0;
+	font-family "BallparkWiener"; 
+	
+	
+}
+
+
+
+#titre_principal h2
+{
+	margin-top: 0;
+	font-family "Dayrom"
+	font-weight: normal;
+}
+
+nav
+{
+	display: inline-block; 
+	width: 750px;
+	text-align: right;
+}
+
+nav ul
+{
+list-style: none;	
+}
+
+
+nav li
+{
+	display: inline-block;
+	
+	
+}
+
+#banniere
+{
+	margin-top: 15px;
+	background url(../images/sanfrancisco.jpg") no-repeat
+}
