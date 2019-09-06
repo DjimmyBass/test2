@@ -1,0 +1,52 @@
+
+/*   */
+div
+{
+	font-size: 18px;   /* taile de police abolu*/
+	font-size: 1.2em;	   /* taile de police relative*/
+	font-family: arial, georgia;   /* famille de police*/
+	font-style: italic;    /* italic, oblique, normal*/	
+	font-weight: bold;   /*bold, normal, light*/
+	
+	text-align: center; /*left, right, justify*/
+
+	
+}
+
+p > img
+{
+	width: 400px;
+	float: left; /*left, right, justify*/
+}
+
+.clear-float
+{
+	clear-both; 
+}
+: 
+.text-red
+{
+	color: red;
+	
+}
+
+.bg-dark
+{
+	color: FFF;
+	background-color: #000;
+	
+}
+
+.bg-image
+{
+	background-image: url (img/image-01.jpg);
+	background-attachment: fixed
+	
+	
+}
+
+.bg-border
+{
+	border: 1px;
+	
+}
